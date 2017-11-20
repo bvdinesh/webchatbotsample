@@ -33,7 +33,7 @@ server.post('/api/messages', connector.listen());
 * ---------------------------------------------------------------------------------------- */
 
 // Create your bot with a function to receive messages from the user
-var connector = new builder.ChatConnector();
+
 var bot = new builder.UniversalBot(connector);
 
 var dialog = new builder.IntentDialog();
